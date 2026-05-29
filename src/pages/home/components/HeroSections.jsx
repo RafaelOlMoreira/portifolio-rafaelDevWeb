@@ -28,7 +28,7 @@ function HeroSections() {
 
   return (
     <>
-      <section className='bg-linear-to-b from-black to-[#001d08] pt-12 px-5'>
+      <section className='bg-linear-to-b from-black to-[#000d04] pt-12 px-5'>
         <div className='flex flex-col text-[#737373] text-[12px] gap-1 font-jetbrains pb-3'>
           <span className='uppercase '>Bios Date {formatarDataHora(dataHora)} Ver 1.0.4</span>
           <span className='text-[#F97316]/70'>CPU: Rafael-Core i9 Extreme @ 4.2Ghz</span>

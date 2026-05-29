@@ -30,8 +30,8 @@ function Navbar() {
         <>
             <nav className={`z-3000 fixed h-min inset-0 flex p-5 justify-between 
                 ${scrolled
-                    ? 'bg-black border-b border-gray-400/20'
-                    : 'bg-transparent'
+                    ? 'bg-black border-b border-gray-400/20 transition-all duration-500'
+                    : 'bg-transparent transition-all duration-500'
                 }
                 ${navMenuAberto
                     ? 'border-b border-[#737373]/30'
